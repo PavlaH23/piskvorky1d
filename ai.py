@@ -1,4 +1,5 @@
 from random import randrange
+import util
 
 def tah_pocitace(pole):
 
