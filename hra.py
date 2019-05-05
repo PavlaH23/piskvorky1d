@@ -1,6 +1,6 @@
-from piskvorky import tah, tah_hrace, vyhodnot
+from piskvorky import tah_hrace, vyhodnot
 from ai import tah_pocitace
-from util import tah
+
 
 pole = "-" * 20
 na_tahu = "x"
