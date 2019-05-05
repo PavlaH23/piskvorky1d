@@ -1,3 +1,6 @@
+def tah(pole, cislo_policka, symbol):
+    return pole[:cislo_policka] + symbol + pole[cislo_policka + 1:]
+
 def tah_hrace(pole):
     while True:
         symbol = "x"
