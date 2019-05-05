@@ -1,6 +1,3 @@
-
-
-
 def tah_hrace(pole):
     while True:
         symbol = "x"
