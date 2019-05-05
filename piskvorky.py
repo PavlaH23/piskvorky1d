@@ -1,5 +1,4 @@
-import ai
-import util
+
 
 
 def tah_hrace(pole):
