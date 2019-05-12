@@ -1,10 +1,10 @@
 def tah(pole, cislo_policka, symbol):
     return pole[:cislo_policka] + symbol + pole[cislo_policka + 1:]
 
-def tah_hrace(pole):
+def tah_hrace(pole, cislo_policka):
     while True:
         symbol = "x"
-        cislo_policka = int(input("""Zadej pozici od 0 do 19: """))
+        # cislo_policka = int(input("""Zadej pozici od 0 do 19: """))
         if cislo_policka < 0 or cislo_policka > 19:
             print("Zadali jste spatne cislo. Zadejte cislo od 0 do 19.")
         elif pole[cislo_policka] != "-":
