@@ -7,6 +7,7 @@ na_tahu = "x"
 
 while True:
     if na_tahu == "x":
+        cislo_policka = int(input("""Zadej pozici od 0 do 19: """))
         pole = tah_hrace(pole)
         na_tahu = "o"
     elif na_tahu == "o":
